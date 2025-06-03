@@ -11,20 +11,19 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Andrii Bilous</title>
 </head>
-<body class="body aos-init aos-animate" data-aos="none" data-aos-duration="0" data-aos-delay="0">
-    <header class="header navigation-wrapper aos-init aos-animate fixed z-999 t-0 r-0 b-0 l-0 bg-gray-900 backdrop-blur-xs h-fit w-full min-h-[100px] md:flex md:justify-center md:items-center" data-aos="fade-down" data-aos-duration="1500">
+<body class="body aos-init aos-animate bg-[rgb(26,27,33)] text-white" data-aos="none" data-aos-duration="0" data-aos-delay="0">
+    <header class="header navigation-wrapper aos-init aos-animate fixed z-999 t-0 r-0 b-0 l-0 bg-[rgba(26, 27, 33, 0.75)] backdrop-blur-sm h-fit w-full min-h-[100px] md:flex md:justify-center md:items-center" data-aos="fade-down" data-aos-duration="1500">
         <nav class="navigation flex justify-between relative md:before:content-[''] md:before:absolute md:before:top-1/2 md:before:bottom-0 md:before:block md:px-4 md:before:h-px md:before:w-[260px] md:before:bg-[#939393] md:before:left-[-500%] md:before:w-[1000%] md:before:z-[-1]">
-            <a href="#" class="logo md:hidden">
+            <a href="#" class="logo px-4 md:hidden">
                 <img src="./img/white-logo.png" alt="Logo" class="h-25"/>
             </a>
-          <div class="fa-bar w-fit bg-gray-900 flex justify-between items-center text-white px-7">
+          <div class="fa-bar w-fit flex justify-between items-center text-white px-7">
             <input type="checkbox" class="fa-checkbox peer absolute w-8 h-8 opacity-0 z-10 cursor-pointer md:hidden"/>
             <span class="fa-menu absolute top-[30%] right-25 w-fit h-fit text-[24px] leading-[31px] transition-[right,opacity] duration-[1000ms,500ms] opacity-0 peer-checked:right-20 peer-checked:opacity-[100] md:hidden">Menu</span>
             <i class="fa relative block w-8 h-[0.125rem] bg-black transition-all duration-100 peer-checked:bg-transparent bg-white
               before:content-[''] before:absolute before:w-8 before:h-[0.125rem] before:bg-black before:-translate-y-2 before:transition-all before:duration-300 peer-checked:before:rotate-45 peer-checked:before:-translate-y-0 before:bg-white
               after:content-[''] after:absolute after:w-8 after:h-[0.125rem] after:bg-black after:translate-y-2 after:transition-all after:duration-300 peer-checked:after:-rotate-45 peer-checked:after:-translate-y-0 after:bg-white md:hidden"></i>
-            <menu class="navigator__menu absolute top-25 right-0 left-[100%] bottom-0 h-[calc(100vh-100px)] w-full flex flex-col justify-between bg-gray-900 transition-[left,opacity] duration-[700ms] ease-[ease] delay-0 sm:w-[60%] sm:peer-checked:left-[40%] peer-checked:left-0
-            md:static md:h-fit">
+              <menu class="navigator__menu absolute top-25 right-0 left-[100%] bottom-0 h-[calc(100vh-100px)] w-full flex flex-col justify-between bg-[rgba(0,0,0,0.8)] md:bg-[rgba(26,27,33,1)] md:px-8 md:w-fit transition-[left,opacity] duration-[700ms] ease-[ease] delay-0 sm:w-[60%] sm:peer-checked:left-[40%] peer-checked:left-0 md:static md:h-fit">
                 <div class="menu__links flex flex-col gap-5 text-center uppercase font-bold md:flex-row">
                     <li class="navigator__menu__item mt-[calc((100vh-100px)/8)] md:mt-0">
                         <a href="#" class="navigator__menu__item__link whitespace-nowrap"> My works </a>
@@ -69,6 +68,45 @@
           </div>
         </nav>
     </header>
+    <main class="main main-wrapper">
+        <section class="introducing-wrapper pt-40 bg-[url(/img/custom-bg.png)] overflow-hidden bg-no-repeat bg-[length:970px] bg-[position:top_center]">
+          <div class="introducing container w-[70%] mx-auto flex flex-col gap-7">
+            <h1 class="introducing__title title relative uppercase w-min z-900 text-5xl/12 font-['Radio_Canada'] before:absolute before:z-[-1] before:top-[-14px] before:right-0 before:bottom-0 before:left-[-22px] before:block before:w-9 before:h-9 before:bg-[#772ea3] before:rounded-full">
+              Andrii Bilous
+              <span class="introducing__subtitle f-sub text-xs bg-[rgba(128,100,125,0.2)] backdrop-blur-[2px] absolute -top-7 right-0 bottom-0 left-40 text-xs leading-[16px] w-fit h-fit px-[18px] py-[6px] rounded-[10px] shadow-[0_0_3px_rgb(119,46,163)] whitespace-nowrap">Full-stack
+                <span class="introducing__subtitle s-sub text-xs bg-[rgba(128,100,125,0.2)] backdrop-blur-[2px] absolute top-7 right-0 bottom-0 left-5 text-xs leading-[16px] w-fit h-fit px-[18px] py-[6px] rounded-[10px] shadow-[0_0_3px_rgb(119,46,163)] whitespace-nowrap">developer</span>
+              </span>
+            </h1>
+            <span class="introducing__content__text  sm:w-[65%] lg:w-[50%] xl:w-[40%]">
+              I`m a creative web developer with 5+ years of professional
+              expirience. I develop compelling web-products which your`s
+              competitors will try to copy. Working in Upwork freelance. Let`s
+              work together!
+            </span>
+            <a
+              href="#"
+              class="introducing__content__button"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-anchor-placement="top-center"
+              >My contacts
+              <i class="arrow"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30px"
+                  height="30px"
+                  fill="currentColor"
+                  class="bi bi-arrow-right-short"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  /></svg></i
+            ></a>
+          </div>
+        </section>
+    </main>
     
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
